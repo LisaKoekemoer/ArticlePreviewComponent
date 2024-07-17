@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+body {
+    background-color: #ECF2F8;
+    font-family: "Manrope", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.article-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 730px;
+    height: 280px;
+    margin: auto;
+    margin-top: 30vh;
+    background-color: #FFFFFF;
+    border-radius: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.article-info {
+    width: 365px;
+    height: 216px;
+    margin-left: 50px;
+    margin-top: -20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.article-info h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #48556A;
 }
 
-.App-link {
-  color: #61dafb;
+.article-info p {
+    font-size: 13px;
+    font-weight: 500;
+    color: #6E8098;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.articleImg img {
+    width: 285px;
+    height: 280px;
+    margin-left: -30px;
+    margin-top: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
+
+.author-details {
+    display: flex;
+    margin-top: 30px;
+}
+
+.michelle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;  
+}
+
+.author {
+    margin-left: 20px;
+}
+
+.author h4 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #48556A;
+    margin-top: 2px;
+}
+
+.author p {
+    font-size: 13px;
+    font-weight: 500;
+    color: #9DAEC2;
+    margin-top: -15px;
+}
+
+.author-details button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ECF2F8;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.share-component {
+    display: flex;
+    align-items: center;
+    width: 248px;
+    height: 67px;
+    background-color: #48556A;
+    border-radius: 15px;
+    position: absolute;
+    top: 350px;
+    left: 850px;
+}
+
+.share-component h2 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #9DAEC2;
+    margin-left: 30px;
+    letter-spacing: 5px;
+}
+
+.share-btn {
+    width: 92px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.share-btn img {
+    width: 20px;
+    height: 20px;
+}
+
